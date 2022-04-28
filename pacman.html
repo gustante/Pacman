@@ -1,0 +1,34 @@
+<!DOCTYPE html>s
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="pacman.js"></script>
+    <style>
+
+      body {
+        background-color: black;
+      }
+      #reset-btn {
+        padding: 20px;
+        margin: 10px;
+        background-color: #00ff00;
+        border: 2px green outset;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #reset-btn:active {
+        background-color: #00ff00;
+        border: 2px green inset;
+      }
+
+
+    </style>
+    <title>Pac Man</title>
+  </head>
+  <body onload="setUp()">
+    <canvas id="canvas" width="440" height="440" style="border:1px solid blue"></canvas>
+    <br>
+    <input id="reset-btn" type="button" name="" value="Reset" onclick="reset()">
+
+  </body>
+</html>
